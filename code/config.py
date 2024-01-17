@@ -28,7 +28,7 @@ class Arg:
         self.output_size = 6    # 输出维度（既使用分类类数预测）
         self.layer_num = 3      # 隐藏层层数
         self.lr = 0.0006         # 学习率
-        self.time_step = 20     # 时间步长
+        self.time_step = 20     # 时间步长,learing rate
         self.epoch = 50         # 训练次数
         self.epoch_fining = 30  # 微调的迭代次数
         # 单只股票的长度（同一数据集股票长度应处理等长）
